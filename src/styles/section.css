@@ -1,0 +1,50 @@
+#graph-section-card, #map-section-card, #table-section-card{
+    margin-top:20px;
+}
+#table-section-card{
+    margin-bottom: 40px;
+}
+#graph-section-title, #map-section-title, #table-section-title{
+    text-align: center;
+    margin: 20px;
+}
+#graphs, #dt{
+    margin: 20px 0;
+}
+
+#summary>.row>.col{
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius:5px;
+}
+
+#summary>h4{
+    margin: 40px 0;
+}
+#summary-province-death{
+    background-color: rgb(248, 122, 122);
+}
+#summary-province-confirmed{
+    background-color:rgb(79, 113, 236);
+}
+#summary-province-recovered{
+    background-color:rgb(124, 248, 122);
+}
+#summary-province-active{
+    color: #4D779D !important;
+    background-color: rgb(248, 255, 122);
+}
+
+#mapid{
+    height:400px;
+}
+
+#footer{
+    text-align:center;
+    margin: 30px auto;
+}
+
+#custom-alert{
+    text-align: center;
+}

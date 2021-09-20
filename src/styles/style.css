@@ -1,0 +1,59 @@
+@import './searchBar.css';
+@import './section.css';
+@import './navbar.css';
+
+body{
+    background-color: #F5F5F5;
+    color: #4D779D;
+}
+
+@media screen and (max-width: 550px){
+
+    h4{
+        font-size:18px;
+    }
+    h5{
+        font-size:16px;
+    }
+    graph-section .container{
+    display:flex;
+    flex-direction: column;
+}
+custom-card{
+    margin:10px auto;
+    width: 100%;
+}
+main{
+    width:95%;
+    margin: 0 auto;
+}
+.col{
+    margin:10px 0;
+}
+#graphs{
+    margin:10px;
+}
+#searchBar>div{
+    width:100%;
+}
+#summary>h4{
+    margin: 10px 0;
+}
+#mapid{
+    height:400px;
+}
+#custom-alert{
+    width:95%;
+}
+#pieChart{
+    height:250px !important;
+    width:250px !important;
+}
+#data-table{
+    overflow: hidden;
+    width:100px !important;
+}
+#footer{
+    margin: 40px auto;
+}
+}
